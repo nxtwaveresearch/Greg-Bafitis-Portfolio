@@ -58,7 +58,12 @@
   .hero-copy .kicker::before{content:"";width:32px;height:2px;background:var(--gold)}
   .hero-copy h1{color:#fff;font-weight:700;font-size:clamp(38px,5.2vw,58px);line-height:1.08;letter-spacing:-.015em;margin-bottom:22px;text-transform:none}
   .hero-copy h1 em{font-style:normal;color:var(--slate-lt)}
-  .hero-copy p{color:#dbe2ea;font-size:clamp(16px,1.5vw,18px);max-width:490px;margin-bottom:30px}
+  .hero-copy p{color:#dbe2ea;font-size:clamp(16px,1.5vw,18px);max-width:490px;margin-bottom:22px}
+  .hero-copy p .pop{color:#fff;font-weight:600}
+  .offer-badge{display:inline-flex;align-items:baseline;gap:14px;margin-bottom:26px;padding:14px 20px;background:rgba(224,169,46,.12);border:1px solid rgba(224,169,46,.4);border-radius:4px}
+  .offer-badge .amt{font-family:'Open Sans',sans-serif;font-weight:700;color:var(--gold);font-size:clamp(30px,3.6vw,40px);line-height:1}
+  .offer-badge .amt small{font-size:15px;font-weight:600;color:#dbe2ea;margin-left:2px}
+  .offer-badge .divide{width:1px;align-self:stretch;background:rgba(224,169,46,.35)}
   .hero-trust{display:flex;flex-wrap:wrap;gap:12px 26px;color:#b8c4d2;font-size:13px}
   .hero-trust span{display:flex;align-items:center;gap:8px}
   .hero-trust .dot{width:5px;height:5px;border-radius:50%;background:var(--gold);flex:none}
@@ -171,7 +176,12 @@
       <div class="hero-copy">
         <span class="kicker">Your Grand Preview Awaits</span>
         <h1>The mountains are calling.<br><em>Come stay a while.</em></h1>
-        <p>Spend three nights at one of our four Peak resorts from $199, with a $100 credit to explore Breckenridge your way. Ski the village, warm up by the fire, and get a feel for what coming back here every year could look like. No pressure, just a genuinely good few days on the mountain.</p>
+        <div class="offer-badge">
+          <div class="amt">$199<small>/ 3 nights</small></div>
+          <div class="divide"></div>
+          <div class="amt">$100<small>activities credit</small></div>
+        </div>
+        <p>Three nights at one of our four Peak resorts, plus a credit to explore Breckenridge your way. Ski the village, warm up by the fire, and get a feel for what coming back here every year could look like. <span class="pop">No pressure, just a genuinely good few days on the mountain.</span></p>
         <div class="hero-trust">
           <span><span class="dot"></span> Tripadvisor Travelers' Choice 2025</span>
           <span><span class="dot"></span> 40+ years in Breckenridge</span>
