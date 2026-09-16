@@ -17,7 +17,7 @@
 }
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
-section[id],main[id],footer[id]{scroll-margin-top:70px}
+section[id],main[id],footer[id]{scroll-margin-top:84px}
 body{margin:0;background:var(--bg);color:var(--body);font-family:var(--sans);
      font-size:16.5px;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
 img{max-width:100%;display:block}
@@ -30,8 +30,8 @@ em{font-family:var(--serif);font-style:italic;font-size:1.06em;color:var(--ink)}
 /* ---------- nav ---------- */
 nav{position:sticky;top:0;z-index:50;background:rgba(10,10,11,.72);
     backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
-nav .shell{display:flex;align-items:center;justify-content:space-between;gap:16px;height:62px}
-nav .name{font-family:var(--serif);font-size:21px;color:var(--ink);letter-spacing:.01em}
+nav .shell{display:flex;align-items:center;justify-content:space-between;gap:16px;height:76px}
+nav .name{font-family:var(--serif);font-size:clamp(26px,3.2vw,34px);color:var(--ink);letter-spacing:.01em;line-height:1}
 nav .links{display:flex;gap:clamp(14px,3vw,30px);font-size:13px;letter-spacing:.04em;color:var(--muted)}
 nav .links a:hover{color:var(--ink)}
 
